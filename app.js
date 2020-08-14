@@ -43,7 +43,7 @@ document.querySelector(".btn-hold").addEventListener("click", function(){
    //update the ui
   document.querySelector("#score-"+current_player).textContent = scoreboard[current_player];
   //check if the player won the game
-  if (scoreboard[current_player] >= 20){
+  if (scoreboard[current_player] >= 100){
    document.querySelector("#name-"+current_player).textContent = "Winner!!!";
    document.querySelector(".dice").style.display = "none";
    gameplaying = false;
